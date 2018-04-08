@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	{% if title %}
+		<title>{{title}}</title>
+	{% else %}
+		<title>Mi Primera App de Flask</title>
+	{% endif %}
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#">Link 1</a></li>
+			<li><a href="#">Link 2</a></li>
+			<li><a href="#">Link 3</a></li>
+		</ul>
+	</nav>
+	<main>
+		{% block content %}
+		{% endblock %}
+	</main>
+
+	<footer>
+		{% block footer %}
+		{% endblock %}
+		<span>&copy; Mi empresa</span>
+	</footer>
+</body>
+</html>

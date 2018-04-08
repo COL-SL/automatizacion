@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% set title ='Titulo bamba' %}
+
+{% block content %}
+
+	<p>Este es el contenido de mi Index, en un futuro contendrá la infromación que quiero mostrar cuando los usuarios hayan hecho login.</p>
+
+	<h4>Esta es una lista de cosas que me gusta</h4>
+	<ul>
+	{% for item in cosas %}
+		<li>{{item}}</li>
+	{% endfor %}
+	</ul>
+{% endblock %}
+
+<p>Esto no está siendo renderizado</p>
+{% block footer %}
+	<p>Este es el footer de mi index, no dice nada util pero podría!!!</p>
+{% endblock %}
