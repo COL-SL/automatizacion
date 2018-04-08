@@ -4,16 +4,27 @@
 {% block content %}
 
 	<p>Buenos días Esther,</br>
-        Adjuntamos informe del día 16 de Marzo:
+        Adjuntamos informe del día {{ my_date.strftime('%d') }} de Marzo:
     </p>
 
-    <p>Día 14 de Marzo (informe del Miércoles)
-    </p>
+    <ul>
+        <li>
+            <p class="dia">Día {{ my_date.strftime('%d') }} de Marzo (informe de {{ my_date.strftime('%b')}})
+            </p>
+        </li>
+    </ul>
 
 	<h4>Esta es una lista de cosas que me gusta</h4>
 	<ul>
 	{% for item in cosas %}
-		<li>{{item}}</li>
+		<table border="1">
+
+            <tr>
+                <td>{{item}}</td>
+                <td>{{item}}</td>
+            </tr>
+
+        </table>
 	{% endfor %}
 	</ul>
 {% endblock %}
