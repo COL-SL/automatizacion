@@ -1,5 +1,5 @@
-p {
-    font-family: verdana;
-    font-size: 20px;
-    color: burlywood;
+p.dia {
+    font-size: 14.0pt;
+    color: #006fc9;
+    background: white;
 }
