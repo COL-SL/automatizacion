@@ -1,7 +1,9 @@
 from flask import request, redirect, render_template, url_for
 from app import app
+import locale
 from datetime import datetime
 import time
+
 
 @app.template_filter()
 def format_date(date): # date = datetime object.
