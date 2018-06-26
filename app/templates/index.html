@@ -3,18 +3,32 @@
 
 {% block content %}
 
-	<p>Buenos días Estheooor,</br>
-        Adjuntamos informe del día {{ my_date.strftime('%d') }} de {{my_date.strftime('%b')}}:
+	<p>Buenos días Esther,</br>
+        Adjuntamos informe del día {{ my_date.strftime('%d') }} de {{month_actual}}
     </p>
 
     <ul>
         <li>
-            <p class="dia">Día {{ my_date.strftime('%d') }} de Marzo (informe de {{my_date.strftime('%b')}})
+            <p class="dia">Día {{ my_date.strftime('%d') }} de {{month_actual}} (informe del {{day_actual}})
             </p>
         </li>
     </ul>
 
-	<h4>Esta es una lista de cosas que me gusta</h4>
+	<h4>Incidencias tratadas  (Sólo Telefónica)</h4>
+	<ul>
+	{% for item in name_columns %}
+		<table border="1">
+
+            <tr>
+                <td>{{item}}</td>
+                <td>{{item}}</td>
+            </tr>
+
+        </table>
+	{% endfor %}
+	</ul>
+
+    <h4>Incidencias cerradas  (Sólo Telefónica)</h4>
 	<ul>
 	{% for item in cosas %}
 		<table border="1">
