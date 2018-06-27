@@ -46,15 +46,15 @@ if   (my_date.weekday()== 0):
     day = "Lunes"
 elif (my_date.weekday() == 1):
     day = "Martes"
-elif (my_date.weekday() == 3):
+elif (my_date.weekday() == 2):
     day = "Miércoles"
-elif (my_date.weekday() == 4):
+elif (my_date.weekday() == 3):
     day = "Jueves"
-elif (my_date.weekday() == 5):
+elif (my_date.weekday() == 4):
     day= "Viernes"
-elif (my_date.weekday() == 6):
+elif (my_date.weekday() == 5):
     day = "Sábado"
-elif (my_date.weekday() == 7):
+elif (my_date.weekday() == 6):
     day = "Domingo"
 
 
