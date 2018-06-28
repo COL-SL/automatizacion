@@ -3,3 +3,8 @@ p.dia {
     color: #006fc9;
     background: white;
 }
+
+th {
+    font-weight: bold;
+    text-align: -internal-center;
+}

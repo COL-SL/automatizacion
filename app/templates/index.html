@@ -16,34 +16,28 @@
 
 	<h4>Incidencias tratadas  (Sólo Telefónica)</h4>
 	<ul>
-	{% for item in name_columns %}
-		<table border="1">
-
+        <table border="1">
             <tr>
-                <td>{{item}}</td>
-                <td>{{item}}</td>
-            </tr>
-
-        </table>
+	{% for item in name_columns %}
+                <th>{{item}}</th>
 	{% endfor %}
+            </tr>
+        </table>
 	</ul>
 
     <h4>Incidencias cerradas  (Sólo Telefónica)</h4>
 	<ul>
-	{% for item in cosas %}
-		<table border="1">
-
-            <tr>
-                <td>{{item}}</td>
-                <td>{{item}}</td>
-            </tr>
-
-        </table>
+        <table border="1">
+             <tr>
+	{%  for item in name_columns %}
+                <th>{{item}}</th>
 	{% endfor %}
+             </tr>
+        </table>
 	</ul>
 {% endblock %}
 
 <p>Esto no está siendo renderizado</p>
 {% block footer %}
-	<p>Un saludo</p>
+	<p>Un saludo,</p>
 {% endblock %}
