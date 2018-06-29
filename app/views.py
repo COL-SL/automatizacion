@@ -14,12 +14,36 @@ from datetime import datetime
 NAME_FILE=openpyxl.load_workbook(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Prueba.xlsx')
 sheet =  NAME_FILE['Cerradas']
 
+list = []
+
+rows = 2
+columns = 23
+
+for r in range (rows,rows+1):
+    for c in range (1, columns+1):
+        d=sheet.cell(row=r, column=c)
+        print('%-8s'%d.value, end='')
+        print('',end=""),
+    print('')
+'''
+for row in sheet.iter_rows(row_offset=1):
+    print("\n")
+    for cell in row:
+        print(cell)
+'''
+
 num_total_rows = 0
 count_num_total_rows = 1
 final_count_num_total_rows = 1
 column_name_f= ''
+column_name_k= ''
 next = False
+day_actual_excel = ''
+day_actual_excel_compare = ''
+my_date_actual_compare_with_excel = datetime.now()
 
+
+#We have the total rows
 while(next == False):
     column_name_f = str("f"+str(count_num_total_rows))
     #print (column_name_f)
@@ -29,15 +53,31 @@ while(next == False):
     else:
         count_num_total_rows = count_num_total_rows + 1
 
-
+#We have the files that we are interested
 for final_count_num_total_rows in range(1,count_num_total_rows):
     column_name_f = str("f" + str(final_count_num_total_rows))
+    column_name_k = str("k" + str(final_count_num_total_rows))
     if (sheet[column_name_f].value == 'TIWS' or sheet[column_name_f].value == 'TIWS '):
         print (column_name_f)
+        if (sheet[column_name_k].value) != 'OPEN':
+            cadena = str(sheet[column_name_k].value)
+            day_actual_excel = cadena[8:10]
+            day_actual_excel = int(day_actual_excel)
+            print (day_actual_excel)
+            day_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%d')
+            day_actual_excel_compare = int(day_actual_excel_compare)
+            print(day_actual_excel_compare)
+            if(day_actual_excel_compare - day_actual_excel == 1):
+                print (sheet.rows[1])
+
     elif (sheet[column_name_f].value == 'TISA ' or sheet[column_name_f].value == 'TISA'):
         print(column_name_f)
+        if (sheet[column_name_k].value) != 'OPEN':
+            print(sheet[column_name_k].value)
     elif (sheet[column_name_f].value == 'TEDIG' or sheet[column_name_f].value == 'TEDIG '):
         print(column_name_f)
+        if (sheet[column_name_k].value) != 'OPEN':
+            print(sheet[column_name_k].value)
 
 my_date=datetime.now()
 
