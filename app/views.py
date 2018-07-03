@@ -3,14 +3,16 @@ from app import app
 import locale
 locale.setlocale(locale.LC_TIME, "sp") # swedish
 import openpyxl
-from datetime import datetime
-from calendar import monthrange
+from datetime import datetime, timedelta
+import calendar
 #import numpy
 
 
 #Read Excel
 NAME_FILE=openpyxl.load_workbook(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Prueba.xlsx')
 sheet =  NAME_FILE['Cerradas']
+DIA_ONE = 1
+DIA_TWO = 2
 
 filepath_cerrradas = r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Cerradas.xlsx'
 wb = openpyxl.Workbook()
@@ -66,7 +68,11 @@ day_actual_excel_compare = ''
 month_actual_excel = ''
 month_actual_excel_compare = ''
 my_date_actual_compare_with_excel = datetime.now()
+my_date_yesterday_compare_with_excel = (datetime.now() - timedelta(2)).strftime('%Y-%m-%d')
+my_year_actual =  datetime.now().strftime('%Y-%m-%d')
 
+print ("my_date_actual_compare_with_excel : ", my_date_actual_compare_with_excel)
+print ("my_date_yesterday_compare_with_excel: ", my_date_yesterday_compare_with_excel)
 
 #We have the total rows
 while(next == False):
@@ -84,10 +90,27 @@ day_studying_number = int(my_date_actual_compare_with_excel.strftime('%d'))
 print (day_studying_number)
 
 day_studying = my_date_actual_compare_with_excel.weekday()
+day_studying_number_change_month = int(my_date_actual_compare_with_excel.strftime('%d'))
 
-if(day_studying == 0 and (day_studying_number == 1 or day_studying_number == 2 or day_studying_number ==  3)):
-    print ("monthrange:", monthrange(2018, 1))
-    # SI ES LUNES Y HAY CAMBIDO DE MES
+month_actual_compare_change = 0
+month_actual_compare_change_less = 0
+
+month_actual_compare_change = my_date_actual_compare_with_excel.strftime('%m')
+month_actual_compare_change_less = my_date_yesterday_compare_with_excel[5:7]
+my_year_actual = my_year_actual[0:4]
+
+print ("month_actual_compare_change_less: ", int(month_actual_compare_change) - int(month_actual_compare_change_less))
+print("calendar.monthrange: ", calendar.monthrange(int(my_year_actual), int(month_actual_compare_change_less)))
+print("year actual: ", my_year_actual[0:4] )
+print ("day_studying_number_change_month:", day_studying_number_change_month)
+
+if(day_studying_number_change_month == 1 and day_studying == 1):
+    # SI HAY CAMBIDO DE MES Y ES MARTES 1; LA COMPROBACION DE CAMBIO DE MES LA HACEMOS EN UN IF DE ABAJO
+
+    print ("PASAMOS")
+    last_day_month_before = calendar.monthrange(int(my_year_actual), int(month_actual_compare_change_less))
+    last_day_month_before = int(last_day_month_before[1])
+    print (last_day_month_before )
 
     # We have the files that we are interested
     for final_count_num_total_rows in range(1, count_num_total_rows):
@@ -108,9 +131,8 @@ if(day_studying == 0 and (day_studying_number == 1 or day_studying_number == 2 o
                 day_actual_excel_compare = int(day_actual_excel_compare)
                 month_actual_excel_compare = int(month_actual_excel_compare)
                 print(day_actual_excel_compare)
-                print("Month Actual Compare", int(month_actual_excel_compare) - int(month_actual_excel))
-                if ((day_actual_excel_compare - day_actual_excel == 1) and (
-                        int(month_actual_excel_compare) - int(month_actual_excel) == 0)):
+                compare_month = int(month_actual_excel_compare) - int(month_actual_excel)
+                if (compare_month == 1 and (day_actual_excel == last_day_month_before or day_actual_excel == last_day_month_before-1 or day_actual_excel == last_day_month_before-2)):
                     print("SELECCIONAMOS TIWS")
                     for r in range(final_count_num_total_rows, final_count_num_total_rows + 1):
                         for c in range(1, 24):
@@ -136,9 +158,8 @@ if(day_studying == 0 and (day_studying_number == 1 or day_studying_number == 2 o
                 day_actual_excel_compare = int(day_actual_excel_compare)
                 month_actual_excel_compare = int(month_actual_excel_compare)
                 print(day_actual_excel_compare)
-                print("Month Actual Compare", int(month_actual_excel_compare) - int(month_actual_excel))
-                if ((day_actual_excel_compare - day_actual_excel == 1) and (
-                        int(month_actual_excel_compare) - int(month_actual_excel) == 0)):
+                compare_month = int(month_actual_excel_compare) - int(month_actual_excel)
+                if (compare_month == 1 and (day_actual_excel == last_day_month_before or day_actual_excel == last_day_month_before - 1 or day_actual_excel == last_day_month_before - 2)):
                     print("SELECCIONAMOS TIWS")
                     for r in range(final_count_num_total_rows, final_count_num_total_rows + 1):
                         for c in range(1, 24):
@@ -164,9 +185,8 @@ if(day_studying == 0 and (day_studying_number == 1 or day_studying_number == 2 o
                 day_actual_excel_compare = int(day_actual_excel_compare)
                 month_actual_excel_compare = int(month_actual_excel_compare)
                 print(day_actual_excel_compare)
-                print("Month Actual Compare", int(month_actual_excel_compare) - int(month_actual_excel))
-                if ((day_actual_excel_compare - day_actual_excel == 1) and (
-                        int(month_actual_excel_compare) - int(month_actual_excel) == 0)):
+                compare_month = int(month_actual_excel_compare) - int(month_actual_excel)
+                if (compare_month == 1 and (day_actual_excel == last_day_month_before or day_actual_excel == last_day_month_before - 1 or day_actual_excel == last_day_month_before - 2)):
                     print("SELECCIONAMOS TIWS")
                     for r in range(final_count_num_total_rows, final_count_num_total_rows + 1):
                         for c in range(1, 24):
@@ -179,7 +199,201 @@ if(day_studying == 0 and (day_studying_number == 1 or day_studying_number == 2 o
                     FINAL_COUNT_NUM_TOTAL_ROW = FINAL_COUNT_NUM_TOTAL_ROW + 1
 
     FILEPATH_Cerradas.save(filepath_cerrradas)
-# FIN DE MARTES A VIERNES SIN CAMBIO DE MES
+# FIN SI HAY CAMBIDO DE MES Y ES MARTES 1
+
+
+elif(day_studying_number_change_month == 2 and day_studying == 1):
+    # SI HAY CAMBIO DE MES Y ES MARTES 2; LA COMPROBACION DE CAMBIO DE MES LA HACEMOS EN UN IF DE ABAJO
+    print("PASAMOS")
+    last_day_month_before = calendar.monthrange(int(my_year_actual), int(month_actual_compare_change_less))
+    last_day_month_before = int(last_day_month_before[1])
+    print(last_day_month_before)
+
+    # We have the files that we are interested
+    for final_count_num_total_rows in range(1, count_num_total_rows):
+        column_name_f = str("f" + str(final_count_num_total_rows))
+        column_name_k = str("k" + str(final_count_num_total_rows))
+
+        if (sheet[column_name_f].value == 'TIWS' or sheet[column_name_f].value == 'TIWS '):
+            print(column_name_f)
+            if (sheet[column_name_k].value) != 'OPEN':
+                cadena = str(sheet[column_name_k].value)
+                day_actual_excel = cadena[8:10]
+                month_actual_excel = cadena[5:7]
+                day_actual_excel = int(day_actual_excel)
+                print(day_actual_excel)
+                print("Month Actual", month_actual_excel)
+                day_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%d')
+                month_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%m')
+                day_actual_excel_compare = int(day_actual_excel_compare)
+                month_actual_excel_compare = int(month_actual_excel_compare)
+                print(day_actual_excel_compare)
+                compare_month = int(month_actual_excel_compare) - int(month_actual_excel)
+                if ((compare_month == 0 and day_actual_excel == DIA_ONE) or (compare_month == 1 and (day_actual_excel == last_day_month_before - 1 or day_actual_excel == last_day_month_before - 2))):
+                    print("SELECCIONAMOS TIWS")
+                    for r in range(final_count_num_total_rows, final_count_num_total_rows + 1):
+                        for c in range(1, 24):
+                            d = sheet.cell(row=r, column=c)
+                            print('%-8s' % d.value, end='')
+                            print('', end=""),
+                            row_final = sheet_Cerradas.cell(row=FINAL_COUNT_NUM_TOTAL_ROW, column=c)
+                            row_final.value = d.value
+                        print('')
+                    FINAL_COUNT_NUM_TOTAL_ROW = FINAL_COUNT_NUM_TOTAL_ROW + 1
+
+        elif (sheet[column_name_f].value == 'TISA ' or sheet[column_name_f].value == 'TISA'):
+            print(column_name_f)
+            if (sheet[column_name_k].value) != 'OPEN':
+                cadena = str(sheet[column_name_k].value)
+                day_actual_excel = cadena[8:10]
+                month_actual_excel = cadena[5:7]
+                day_actual_excel = int(day_actual_excel)
+                print(day_actual_excel)
+                print("Month Actual", month_actual_excel)
+                day_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%d')
+                month_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%m')
+                day_actual_excel_compare = int(day_actual_excel_compare)
+                month_actual_excel_compare = int(month_actual_excel_compare)
+                print(day_actual_excel_compare)
+                compare_month = int(month_actual_excel_compare) - int(month_actual_excel)
+                if ((compare_month == 0 and day_actual_excel == DIA_ONE) or (compare_month == 1 and (day_actual_excel == last_day_month_before - 1 or day_actual_excel == last_day_month_before - 2))):
+                    print("SELECCIONAMOS TIWS")
+                    for r in range(final_count_num_total_rows, final_count_num_total_rows + 1):
+                        for c in range(1, 24):
+                            d = sheet.cell(row=r, column=c)
+                            print('%-8s' % d.value, end='')
+                            print('', end=""),
+                            row_final = sheet_Cerradas.cell(row=FINAL_COUNT_NUM_TOTAL_ROW, column=c)
+                            row_final.value = d.value
+                        print('')
+                    FINAL_COUNT_NUM_TOTAL_ROW = FINAL_COUNT_NUM_TOTAL_ROW + 1
+
+        elif (sheet[column_name_f].value == 'TEDIG' or sheet[column_name_f].value == 'TEDIG '):
+            print(column_name_f)
+            if (sheet[column_name_k].value) != 'OPEN':
+                cadena = str(sheet[column_name_k].value)
+                day_actual_excel = cadena[8:10]
+                month_actual_excel = cadena[5:7]
+                day_actual_excel = int(day_actual_excel)
+                print(day_actual_excel)
+                print("Month Actual", month_actual_excel)
+                day_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%d')
+                month_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%m')
+                day_actual_excel_compare = int(day_actual_excel_compare)
+                month_actual_excel_compare = int(month_actual_excel_compare)
+                print(day_actual_excel_compare)
+                compare_month = int(month_actual_excel_compare) - int(month_actual_excel)
+                if ((compare_month == 0 and day_actual_excel == DIA_ONE) or (compare_month == 1 and (day_actual_excel == last_day_month_before - 1 or day_actual_excel == last_day_month_before - 2))):
+                    print("SELECCIONAMOS TIWS")
+                    for r in range(final_count_num_total_rows, final_count_num_total_rows + 1):
+                        for c in range(1, 24):
+                            d = sheet.cell(row=r, column=c)
+                            print('%-8s' % d.value, end='')
+                            print('', end=""),
+                            row_final = sheet_Cerradas.cell(row=FINAL_COUNT_NUM_TOTAL_ROW, column=c)
+                            row_final.value = d.value
+                        print('')
+                    FINAL_COUNT_NUM_TOTAL_ROW = FINAL_COUNT_NUM_TOTAL_ROW + 1
+
+    FILEPATH_Cerradas.save(filepath_cerrradas)
+# FIN SI HAY CAMBIO DE MES Y ES MARTES 2
+
+elif(day_studying_number_change_month == 3 and day_studying == 1):
+    # SI HAY CAMBIO DE MES Y ES MARTES 3; LA COMPROBACION DE CAMBIO DE MES LA HACEMOS EN UN IF DE ABAJO
+    print("PASAMOS")
+    last_day_month_before = calendar.monthrange(int(my_year_actual), int(month_actual_compare_change_less))
+    last_day_month_before = int(last_day_month_before[1])
+    print(last_day_month_before)
+
+    # We have the files that we are interested
+    for final_count_num_total_rows in range(1, count_num_total_rows):
+        column_name_f = str("f" + str(final_count_num_total_rows))
+        column_name_k = str("k" + str(final_count_num_total_rows))
+
+        if (sheet[column_name_f].value == 'TIWS' or sheet[column_name_f].value == 'TIWS '):
+            print(column_name_f)
+            if (sheet[column_name_k].value) != 'OPEN':
+                cadena = str(sheet[column_name_k].value)
+                day_actual_excel = cadena[8:10]
+                month_actual_excel = cadena[5:7]
+                day_actual_excel = int(day_actual_excel)
+                print(day_actual_excel)
+                print("Month Actual", month_actual_excel)
+                day_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%d')
+                month_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%m')
+                day_actual_excel_compare = int(day_actual_excel_compare)
+                month_actual_excel_compare = int(month_actual_excel_compare)
+                print(day_actual_excel_compare)
+                compare_month = int(month_actual_excel_compare) - int(month_actual_excel)
+                if (compare_month == 0 and (day_actual_excel == DIA_ONE or day_actual_excel == DIA_TWO)) or (compare_month == 1 and (day_actual_excel == last_day_month_before - 1)):
+                    print("SELECCIONAMOS TIWS")
+                    for r in range(final_count_num_total_rows, final_count_num_total_rows + 1):
+                        for c in range(1, 24):
+                            d = sheet.cell(row=r, column=c)
+                            print('%-8s' % d.value, end='')
+                            print('', end=""),
+                            row_final = sheet_Cerradas.cell(row=FINAL_COUNT_NUM_TOTAL_ROW, column=c)
+                            row_final.value = d.value
+                        print('')
+                    FINAL_COUNT_NUM_TOTAL_ROW = FINAL_COUNT_NUM_TOTAL_ROW + 1
+
+        elif (sheet[column_name_f].value == 'TISA ' or sheet[column_name_f].value == 'TISA'):
+            print(column_name_f)
+            if (sheet[column_name_k].value) != 'OPEN':
+                cadena = str(sheet[column_name_k].value)
+                day_actual_excel = cadena[8:10]
+                month_actual_excel = cadena[5:7]
+                day_actual_excel = int(day_actual_excel)
+                print(day_actual_excel)
+                print("Month Actual", month_actual_excel)
+                day_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%d')
+                month_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%m')
+                day_actual_excel_compare = int(day_actual_excel_compare)
+                month_actual_excel_compare = int(month_actual_excel_compare)
+                print(day_actual_excel_compare)
+                compare_month = int(month_actual_excel_compare) - int(month_actual_excel)
+                if (compare_month == 0 and (day_actual_excel == DIA_ONE or day_actual_excel == DIA_TWO)) or (compare_month == 1 and (day_actual_excel == last_day_month_before - 1)):
+                    print("SELECCIONAMOS TIWS")
+                    for r in range(final_count_num_total_rows, final_count_num_total_rows + 1):
+                        for c in range(1, 24):
+                            d = sheet.cell(row=r, column=c)
+                            print('%-8s' % d.value, end='')
+                            print('', end=""),
+                            row_final = sheet_Cerradas.cell(row=FINAL_COUNT_NUM_TOTAL_ROW, column=c)
+                            row_final.value = d.value
+                        print('')
+                    FINAL_COUNT_NUM_TOTAL_ROW = FINAL_COUNT_NUM_TOTAL_ROW + 1
+
+        elif (sheet[column_name_f].value == 'TEDIG' or sheet[column_name_f].value == 'TEDIG '):
+            print(column_name_f)
+            if (sheet[column_name_k].value) != 'OPEN':
+                cadena = str(sheet[column_name_k].value)
+                day_actual_excel = cadena[8:10]
+                month_actual_excel = cadena[5:7]
+                day_actual_excel = int(day_actual_excel)
+                print(day_actual_excel)
+                print("Month Actual", month_actual_excel)
+                day_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%d')
+                month_actual_excel_compare = my_date_actual_compare_with_excel.strftime('%m')
+                day_actual_excel_compare = int(day_actual_excel_compare)
+                month_actual_excel_compare = int(month_actual_excel_compare)
+                print(day_actual_excel_compare)
+                compare_month = int(month_actual_excel_compare) - int(month_actual_excel)
+                if (compare_month == 0 and (day_actual_excel == DIA_ONE or day_actual_excel == DIA_TWO)) or (compare_month == 1 and (day_actual_excel == last_day_month_before - 1)):
+                    print("SELECCIONAMOS TIWS")
+                    for r in range(final_count_num_total_rows, final_count_num_total_rows + 1):
+                        for c in range(1, 24):
+                            d = sheet.cell(row=r, column=c)
+                            print('%-8s' % d.value, end='')
+                            print('', end=""),
+                            row_final = sheet_Cerradas.cell(row=FINAL_COUNT_NUM_TOTAL_ROW, column=c)
+                            row_final.value = d.value
+                        print('')
+                    FINAL_COUNT_NUM_TOTAL_ROW = FINAL_COUNT_NUM_TOTAL_ROW + 1
+
+    FILEPATH_Cerradas.save(filepath_cerrradas)
+# FIN SI HAY CAMBIO DE MES Y ES MARTES 3
+
 '''
 elif( day_studying == 1 or day_studying == 2 or day_studying == 3 or day_studying == 4):
     #DE MARTES A VIERNES SIN CAMBIO DE MES
