@@ -27,8 +27,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="70" column="69" lean-forward="false" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="69" />
+            <state relative-caret-position="170">
+              <caret line="383" column="122" lean-forward="false" selection-start-line="383" selection-start-column="122" selection-end-line="383" selection-end-column="122" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -81,6 +81,9 @@
       <find>format_date</find>
       <find>month_actual_compare_change_less</find>
       <find>my_date_yesterday_compare_with_excel</find>
+      <find>DIA_ONE</find>
+      <find>DIA_TWO</find>
+      <find>DIA_THREE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-531" />
     <option name="y" value="304" />
     <option name="width" value="1936" />
@@ -284,7 +287,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -482,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="70" column="69" lean-forward="false" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="69" />
+        <state relative-caret-position="170">
+          <caret line="383" column="122" lean-forward="false" selection-start-line="383" selection-start-column="122" selection-end-line="383" selection-end-column="122" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
