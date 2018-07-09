@@ -93,7 +93,7 @@ def cerradas():
     print("year actual: ", my_year_actual[0:4] )
     print ("day_studying_number_change_month:", day_studying_number_change_month)
 
-    if(day_studying_number_change_month == 1 and day_studying == 1 and not VARIABLE_PROBANDO):
+    if(day_studying_number_change_month == 1 and day_studying == 1):
         # SI HAY CAMBIO DE MES Y ES MARTES 1; LA COMPROBACION DE CAMBIO DE MES LA HACEMOS EN UN IF DE ABAJO
 
         print ("PASAMOS")
@@ -190,7 +190,7 @@ def cerradas():
         FILEPATH_Cerradas.save(filepath_cerrradas)
     # FIN SI HAY CAMBIDO DE MES Y ES MARTES 1
 
-    elif(day_studying_number_change_month == 2 and day_studying == 1 and not VARIABLE_PROBANDO):
+    elif(day_studying_number_change_month == 2 and day_studying == 1):
         # SI HAY CAMBIO DE MES Y ES MARTES 2; LA COMPROBACION DE CAMBIO DE MES LA HACEMOS EN UN IF DE ABAJO
         print("PASAMOS")
         last_day_month_before = calendar.monthrange(int(my_year_actual), int(int(month_actual_compare_change_less) - 1))
@@ -286,7 +286,7 @@ def cerradas():
         FILEPATH_Cerradas.save(filepath_cerrradas)
     # FIN SI HAY CAMBIO DE MES Y ES MARTES 2
 
-    elif(day_studying_number_change_month == 3 and day_studying == 1 and not VARIABLE_PROBANDO):
+    elif(day_studying_number_change_month == 3 and day_studying == 1):
         # SI HAY CAMBIO DE MES Y ES MARTES 3; LA COMPROBACION DE CAMBIO DE MES LA HACEMOS EN UN IF DE ABAJO
         print("PASAMOS")
         last_day_month_before = calendar.monthrange(int(my_year_actual), int(int(month_actual_compare_change_less) - 1))
@@ -382,7 +382,7 @@ def cerradas():
         FILEPATH_Cerradas.save(filepath_cerrradas)
     # FIN SI HAY CAMBIO DE MES Y ES MARTES 3
 
-    elif(day_studying_number_change_month == 1 and not day_studying == 0 and not day_studying == 1 and not VARIABLE_PROBANDO):
+    elif(day_studying_number_change_month == 1 and not day_studying == 0 and not day_studying == 1):
         # SI HAY CAMBIDO DE MES 1 Y NO ES LUNES NI MARTES;
 
         print ("PASAMOS")
@@ -479,7 +479,7 @@ def cerradas():
         FILEPATH_Cerradas.save(filepath_cerrradas)
     # FIN SI HAY CAMBIDO DE MES 1 Y NO ES LUNES NI MARTES;
 
-    elif(day_studying_number_change_month == 1 and day_studying == 0 and not VARIABLE_PROBANDO):
+    elif(day_studying_number_change_month == 1 and day_studying == 0):
         # SI HAY CAMBIDO DE MES Y ES LUNES 1; LA COMPROBACION DE CAMBIO DE MES LA HACEMOS EN UN IF DE ABAJO
 
         print ("PASAMOS")
@@ -576,7 +576,7 @@ def cerradas():
         FILEPATH_Cerradas.save(filepath_cerrradas)
     # FIN SI HAY CAMBIDO DE MES Y ES LUNES 1;
 
-    elif(day_studying_number_change_month == 2 and day_studying == 0 and not VARIABLE_PROBANDO):
+    elif(day_studying_number_change_month == 2 and day_studying == 0):
         # SI HAY CAMBIDO DE MES Y ES LUNES 2; LA COMPROBACION DE CAMBIO DE MES LA HACEMOS EN UN IF DE ABAJO
 
         print ("PASAMOS")
@@ -673,7 +673,7 @@ def cerradas():
         FILEPATH_Cerradas.save(filepath_cerrradas)
     # FIN SI HAY CAMBIDO DE MES Y ES LUNES 2;
 
-    elif(day_studying_number_change_month == 3 and day_studying == 0 and not VARIABLE_PROBANDO):
+    elif(day_studying_number_change_month == 3 and day_studying == 0):
         # SI HAY CAMBIDO DE MES Y ES LUNES 3; LA COMPROBACION DE CAMBIO DE MES LA HACEMOS EN UN IF DE ABAJO
 
         print ("PASAMOS")
@@ -770,7 +770,7 @@ def cerradas():
         FILEPATH_Cerradas.save(filepath_cerrradas)
     # FIN SI HAY CAMBIDO DE MES Y ES LUNES 3;
 
-    elif( day_studying == 2 or day_studying == 3 or day_studying == 3 or day_studying == 4):
+    elif( day_studying == 2 or day_studying == 3 or day_studying == 4):
         #DE MIERCOLES A VIERNES SIN CAMBIO DE MES; CASO MAS FACIL
         print("PASAMOS NORMAL")
         #We have the files that we are interested
@@ -861,6 +861,10 @@ def cerradas():
 
         FILEPATH_Cerradas.save(filepath_cerrradas)
     #FIN DE MARTES A VIERNES SIN CAMBIO DE MES
+
+
+    else:
+        print ("NO ENTRAMOSSSSSSSS NE NINGUNNNNNNNNNNNNNNNNNNNN ISITTTTTTTTTTTTOTOTOTOTOt")
 
 
 my_date=datetime.now()
