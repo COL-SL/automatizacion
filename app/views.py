@@ -1099,8 +1099,8 @@ def abiertas():
 
     # We have the total rows
     while (next == False):
-        column_name_f = str("h" + str(count_num_total_rows))
-        if (sheet[column_name_f].value == None):
+        column_name_h = str("h" + str(count_num_total_rows))
+        if (sheet[column_name_h].value == None):
             next = True
         else:
             count_num_total_rows = count_num_total_rows + 1
