@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a4ea9f-bc8a-490b-8d36-7fa542e5184c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
-    </list>
+    <list default="true" id="44a4ea9f-bc8a-490b-8d36-7fa542e5184c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +24,11 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="1102" column="31" lean-forward="false" selection-start-line="1102" selection-start-column="31" selection-end-line="1102" selection-end-column="31" />
+            <state relative-caret-position="368">
+              <caret line="974" column="17" lean-forward="false" selection-start-line="974" selection-start-column="17" selection-end-line="974" selection-end-column="17" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
+                <marker date="1533205953876" expanded="true" signature="62052:63833" ph="..." />
               </folding>
             </state>
           </provider>
@@ -94,6 +93,7 @@
       <find>DIA_TWO</find>
       <find>DIA_THREE</find>
       <find>day_studying</find>
+      <find>column_name_f</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,8 +120,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-553" />
-    <option name="y" value="141" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -168,23 +168,6 @@
             <path>
               <item name="probando_jinja2" type="b2602c69:ProjectViewProjectNode" />
               <item name="probando_jinja2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="probando_jinja2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="probando_jinja2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="probando_jinja2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="probando_jinja2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="probando_jinja2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="probando_jinja2" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,7 +288,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22597677" sideWeight="0.50208336" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20063359" sideWeight="0.49791667" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20063359" sideWeight="0.49791667" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -367,6 +350,7 @@
           <caret line="1057" column="0" lean-forward="true" selection-start-line="1057" selection-start-column="0" selection-end-line="1057" selection-end-column="0" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
+            <marker date="1533205953876" expanded="true" signature="62052:63833" ph="..." />
           </folding>
         </state>
       </provider>
@@ -385,6 +369,7 @@
           <caret line="94" column="3" lean-forward="true" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="36" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
+            <marker date="1533205953876" expanded="true" signature="62052:63833" ph="..." />
           </folding>
         </state>
       </provider>
@@ -427,6 +412,7 @@
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
+            <marker date="1533205953876" expanded="true" signature="62052:63833" ph="..." />
           </folding>
         </state>
       </provider>
@@ -469,6 +455,7 @@
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
+            <marker date="1533205953876" expanded="true" signature="62052:63833" ph="..." />
           </folding>
         </state>
       </provider>
@@ -538,6 +525,14 @@
     <entry file="file://$PROJECT_DIR$/app/styles/style.css.css" />
     <entry file="file://$PROJECT_DIR$/app/static/style.css.css" />
     <entry file="file://$PROJECT_DIR$/app/templates/style.css" />
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -570,20 +565,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="1102" column="31" lean-forward="false" selection-start-line="1102" selection-start-column="31" selection-end-line="1102" selection-end-column="31" />
+        <state relative-caret-position="368">
+          <caret line="974" column="17" lean-forward="false" selection-start-line="974" selection-start-column="17" selection-end-line="974" selection-end-column="17" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
+            <marker date="1533205953876" expanded="true" signature="62052:63833" ph="..." />
           </folding>
         </state>
       </provider>

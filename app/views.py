@@ -972,7 +972,7 @@ def cerradas():
             column_name_k = str("k" + str(final_count_num_total_rows))
 
             if (sheet[column_name_f].value == 'TIWS' or sheet[column_name_f].value == 'TIWS '):
-                print (column_name_f)
+                #print (column_name_f)
                 if (sheet[column_name_k].value) != 'OPEN':
                     cadena = str(sheet[column_name_k].value)
                     day_actual_excel = cadena[8:10]
