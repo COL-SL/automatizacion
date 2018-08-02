@@ -24,8 +24,13 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="368">
               <caret line="974" column="17" lean-forward="false" selection-start-line="974" selection-start-column="17" selection-end-line="974" selection-end-column="17" />
+=======
+            <state relative-caret-position="18734">
+              <caret line="1102" column="31" lean-forward="false" selection-start-line="1102" selection-start-column="31" selection-end-line="1102" selection-end-column="31" />
+>>>>>>> ef2a96f610a79d707d3a88be65bf38411b4cc226
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
                 <marker date="1533205953876" expanded="true" signature="62052:63833" ph="..." />
@@ -525,10 +530,17 @@
     <entry file="file://$PROJECT_DIR$/app/styles/style.css.css" />
     <entry file="file://$PROJECT_DIR$/app/static/style.css.css" />
     <entry file="file://$PROJECT_DIR$/app/templates/style.css" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> ef2a96f610a79d707d3a88be65bf38411b4cc226
           <folding />
         </state>
       </provider>
@@ -557,18 +569,30 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+>>>>>>> ef2a96f610a79d707d3a88be65bf38411b4cc226
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="368">
           <caret line="974" column="17" lean-forward="false" selection-start-line="974" selection-start-column="17" selection-end-line="974" selection-end-column="17" />
+=======
+        <state relative-caret-position="18734">
+          <caret line="1102" column="31" lean-forward="false" selection-start-line="1102" selection-start-column="31" selection-end-line="1102" selection-end-column="31" />
+>>>>>>> ef2a96f610a79d707d3a88be65bf38411b4cc226
           <folding>
             <element signature="e#0#61#0" expanded="true" />
             <marker date="1533205953876" expanded="true" signature="62052:63833" ph="..." />
