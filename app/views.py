@@ -9,19 +9,19 @@ import calendar
 
 def cerradas():
     #File Log
-    FILEPATH_LOG = open(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Log_Cerradas.txt','a')
+    FILEPATH_LOG = open(r'C:\Users\usr1CR\.PyCharmCE2018.2\proyects\probando_jinja2\probando_jinja2\excel\Log_Cerradas.txt','a')
 
     #Read Excel
-    NAME_FILE=openpyxl.load_workbook(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Prueba.xlsx')
+    NAME_FILE=openpyxl.load_workbook(r'C:\Users\usr1CR\.PyCharmCE2018.2\proyects\probando_jinja2\probando_jinja2\excel\Prueba.xlsx')
     sheet =  NAME_FILE['Cerradas']
     DIA_ONE = 1
     DIA_TWO = 2
 
-    filepath_cerrradas = r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Cerradas.xlsx'
+    filepath_cerrradas = r'C:\Users\usr1CR\.PyCharmCE2018.2\proyects\probando_jinja2\probando_jinja2\excel\Cerradas.xlsx'
     wb = openpyxl.Workbook()
     wb.save(filepath_cerrradas)
 
-    FILEPATH_Cerradas = openpyxl.load_workbook(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Cerradas.xlsx')
+    FILEPATH_Cerradas = openpyxl.load_workbook(r'C:\Users\usr1CR\.PyCharmCE2018.2\proyects\probando_jinja2\probando_jinja2\excel\Cerradas.xlsx')
 
     sheet_Cerradas = FILEPATH_Cerradas.active
     FINAL_COUNT_NUM_TOTAL_ROW = 2
@@ -972,7 +972,7 @@ def cerradas():
             column_name_k = str("k" + str(final_count_num_total_rows))
 
             if (sheet[column_name_f].value == 'TIWS' or sheet[column_name_f].value == 'TIWS '):
-                print (column_name_f)
+                #print (column_name_f)
                 if (sheet[column_name_k].value) != 'OPEN':
                     cadena = str(sheet[column_name_k].value)
                     day_actual_excel = cadena[8:10]
@@ -1069,17 +1069,17 @@ def cerradas():
 
 def abiertas():
     # File Log
-    FILEPATH_LOG = open(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Log_Abiertas.txt', 'a')
+    FILEPATH_LOG = open(r'C:\Users\usr1CR\.PyCharmCE2018.2\proyects\probando_jinja2\probando_jinja2\excel\Log_Abiertas.txt', 'a')
 
     # Read Excel
-    NAME_FILE = openpyxl.load_workbook(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Prueba.xlsx')
+    NAME_FILE = openpyxl.load_workbook(r'C:\Users\usr1CR\.PyCharmCE2018.2\proyects\probando_jinja2\probando_jinja2\excel\Prueba.xlsx')
     sheet = NAME_FILE['Abiertas']
 
-    filepath_abiertas = r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Abiertas.xlsx'
+    filepath_abiertas = r'C:\Users\usr1CR\.PyCharmCE2018.2\proyects\probando_jinja2\probando_jinja2\excel\Abiertas.xlsx'
     wb = openpyxl.Workbook()
     wb.save(filepath_abiertas)
 
-    FILEPATH_Abiertas = openpyxl.load_workbook(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Abiertas.xlsx')
+    FILEPATH_Abiertas = openpyxl.load_workbook(r'C:\Users\usr1CR\.PyCharmCE2018.2\proyects\probando_jinja2\probando_jinja2\excel\Abiertas.xlsx')
 
     sheet_Abiertas = FILEPATH_Abiertas.active
     FINAL_COUNT_NUM_TOTAL_ROW = 2
