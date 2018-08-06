@@ -9,17 +9,24 @@ import calendar
 
 def cerradas():
     #File Log
+
     FILEPATH_LOG = open(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Log_Cerradas.txt','a')
+
 
     #Read Excel
     NAME_FILE=openpyxl.load_workbook(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Prueba.xlsx')
     sheet =  NAME_FILE['Cerradas']
     DIA_ONE = 1
     DIA_TWO = 2
+    try:
+        filepath_cerrradas = r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Cerradas.xlsx'
+        wb = openpyxl.Workbook()
+        wb.save(filepath_cerrradas)
+    except:
+        print("******************************************************\n")
+        print("Cerrar archivo Cerradas.xlsx y despues ejecutar el programa\n")
+        print("******************************************************\n")
 
-    filepath_cerrradas = r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Cerradas.xlsx'
-    wb = openpyxl.Workbook()
-    wb.save(filepath_cerrradas)
 
     FILEPATH_Cerradas = openpyxl.load_workbook(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Cerradas.xlsx')
 
@@ -1075,9 +1082,14 @@ def abiertas():
     NAME_FILE = openpyxl.load_workbook(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Prueba.xlsx')
     sheet = NAME_FILE['Abiertas']
 
-    filepath_abiertas = r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Abiertas.xlsx'
-    wb = openpyxl.Workbook()
-    wb.save(filepath_abiertas)
+    try:
+        filepath_abiertas = r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Abiertas.xlsx'
+        wb = openpyxl.Workbook()
+        wb.save(filepath_abiertas)
+    except:
+        print("******************************************************\n")
+        print("Cerrar archivo Abiertas.xlsx y despues ejecutar el programa\n")
+        print("******************************************************\n")
 
     FILEPATH_Abiertas = openpyxl.load_workbook(r'C:\Users\usr1CR\PycharmProjects\probando_jinja2\excel\Abiertas.xlsx')
 

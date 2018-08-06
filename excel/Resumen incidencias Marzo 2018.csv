@@ -1,0 +1,279 @@
+Provisión;Sigma // Infinity;Cisco SR;Cisco RMA;Ticket SMC;Cliente;Sala de apertura;Adm. de circuito;Salas afectadas;Pais;Fecha de cierre;Escalado;Proactiva;Responsable;Motivo de apertura;Resolución; Tiempo abierta;Fecha de apertura;Indisponibilidad de la sesión;Indisponibilidad de la sala;Seguimiento;Responsable cierre;criticidad;;;;;;
+NO;1100641;;;;TIWS;BRASIL EcoBerrini 500;20170727-CONFTLPS-0000429737;BRASIL EcoBerrini 500;BRASIL;01/03/2018;N1;NO;TIWS;1/03 - Tras las pruebas realizadas no se observa ningún problema en la sala.;28/02 - Tras reinicio se realiza test correcto contra 5100804. Enviamos pruebas a cliente e indicamos que debería funcionar correctamente.;120;27/02/2018;0m;0m;"1/03 - Tras las pruebas realizadas no se observa ningún problema en la sala.
+28/02 - Tras reinicio se realiza test correcto contra 5100804. Enviamos pruebas a cliente e indicamos que debería funcionar correctamente.
+28/02 - No se puede acceder por web. Se habilita desde CUCM y reiniciamos device por CLI.
+27/02 - No se aprecian fallos en la bgp";;;;;;;;
+NO;1098243;684058124;;;NOKIA;TLPS S USA IRV 02 ;DEM0017695;TLPS S USA IRV 02 ;USA;01/03/2018;N1;NO;CLIENTE;Node Down;01/03 - Solicitamos que el usuario reinicie el equipo y compruebe el estado posteriormente.;121;26/02/2018;0m;0m;"01/03 - Solicitamos que el usuario reinicie el equipo y compruebe el estado posteriormente.
+01/03 - Enviamos a cliente las preguntas de Cisco. A la espera de que cliente responda para enviarle a Cisco toda la información que requiere (hay que sacar logs).
+28/02 - Abrimos caso a Cisco para que revisen el error “check/power cycle - RmV US IRT 6000 Connectio_4 01 E139B (16)”.
+27/02 - Volvemos a pedir update sobre la incidencia
+26/02 - Tenemos acceso al GW solicitamos abran caso con HP";;;;;;;;
+NO;1098530;;;;NOKIA;TLPS M FRA NOZ 03;Pendiente;TLPS M FRA NOZ 03;FRANCE;01/03/2018;N1;NO;CLIENTE;Node Down;01/03 - Se solicita update a SMC acerca de si HP revisó la LAN. El equipo continua desregistrado, sin acceso a Codec, si al GW.;121;26/02/2018;0m;0m;"01/03 - Se solicita update a SMC acerca de si HP revisó la LAN. El equipo continua desregistrado, sin acceso a Codec, si al GW.
+27/02 - Anulamos cambio de codec para este caso y abrimos caso a Cisco en la 1097776
+27/02 - Solicitamos cambio de codec a Cisco y ventana para FE a cliente.
+27/02 - El onsite de HP indica que la red está correcta y que el codec no funciona al conectarlo a la red. Abrimos caso a Cisco.
+27/02 - Se vuelve a solicitar a SMC que revise el encendido del equipo y la conexión LAN
+26/02 - Tenemos acceso al GW solicitamos abran caso con HP";;;;;;;;
+NO;1102571;;;;NOKIA;TLPS S USA PLA 01;Pendiente;TLPS S USA PLA 01;USA;01/03/2018;N1;;CLIENTE;Node Down;01/03 - Se solicita update a SMC. La sala continua desregistrada, sin acceso a Codec y si al GW.;119;28/02/2018;0m;0m;01/03 - Se solicita update a SMC. La sala continua desregistrada, sin acceso a Codec y si al GW.;;;;;;;;
+NO;1069794;;;;Media Networks;DX 80 PERU 02;20150605-CONFVCF-0000396759;DX 80 PERU 02;PERU;01/03/2018;N1;NO;CLIENTE;Pérdida de configuracion DX80;01/03 - Se carga la versión CE8.2.2 para realizar downgrade de firmware.;141;43137;0m;0m;"01/03 - Se carga la versión CE8.2.2 para realizar downgrade de firmware.
+27/02- Se realiza una sesion de pruebas con el cliente final, pero el cliente no aparece, hemos conectado la sala a un space durante 2 horas, comprobando que no presenta ningun problema, se envia la guia de conferencia, ya que se observa la mala marcacion desde la sala en las anteriores sesiones.
+26/02 - Se prueba maqueta de actualización a la CE8.2.2 para probar CMS-TMS. Se indica a Cisco que se informará con los resultados.
+21/02 - Según Ingeniería la actualizacion del codec a la 9.2.0 no es posible porque implica actualizar TMS y CMS. Se pregunta a Cisco si funciona OBTP en version 15.4 de TMS si actualizan el DX80 a 9.2.0. 
+21/02 - Continúa pendiente de ingeniería. Preguntar a Esteban.
+13/02 - Cisco indica que se produce por los efectos del bug CSCvb57199 y recomiendan actualizar a la CE9.2.3. Pendiente de que ingenieria indique si es posible en nuestra plataforma.
+08/02 - CISCO indica que bajemos la version de Software CE8.2.X y comprobemos si el fallo desaparece.
+06/02 - Apertura de caso, para que revisen porque pierden la configuracion los equipos con el reinicio";;;;;;;;
+NO;1103881;;;;TIWS;TLPS L MEX MEX 01;20150810-CONFTLPS-0000398537;TLPS L MEX MEX 01;MEXICO;01/03/2018;N1;NO;TIWS;Solo se permite 1 audio por sesion al conectar a Space (Mexico);"01/03 - Realizamos pruebas a un Space 6000010 conectando vía Audio. A España -> Si permite más de 1 audio en la sesion. A Mexico -> Si permite mas de 1 audio en la sesion
+
+";118;01/03/2018;0m;0m;"01/03 - Realizamos pruebas a un Space 6000010 conectando vía Audio. A España -> Si permite más de 1 audio en la sesion. A Mexico -> Si permite mas de 1 audio en la sesion
+
+";;;;;;;;
+NO;1103967;;;;NOKIA;TLPS M CHI HAN 02;Pendiente;TLPS M CHI HAN 02;CHINA;01/02/2018;N1;NO;CLIENTE;Node Down;01/03 - Tenemos acceso al GW solicitamos abran caso con HP para revisar LAN;0;02/03/2018;0m;0m;01/03 - Tenemos acceso al GW solicitamos abran caso con HP para revisar LAN;;;;;;;;
+NO;1095477;;;;MAR DE PLATA;Mar de Plata Peru y Chile;20170726-CONFTLPS-0000429715;Mar de Plata Peru y Chile;AMER;02/03/2018;N1;NO;TIWS;Realizar test con salas de Mar de Plata;02/03 - Se realizan pruebas con la delegación de Colombia, comprobando que el canuto sigue activo. Se prueba primero conexión por internet, donde se revisa que no tienen segmentada la red y tienen muchas pixelaciones.  Se realiza conexión a través del colaboration bridge de telepresencia con una conexión satisfactoria. Cerramos incidencia.;124;23/02/2018;0m;0m;"02/03 - Se realizan pruebas con la delegación de Colombia, comprobando que el canuto sigue activo. Se prueba primero conexión por internet, donde se revisa que no tienen segmentada la red y tienen muchas pixelaciones.  Se realiza conexión a través del colaboration bridge de telepresencia con una conexión satisfactoria. Cerramos incidencia.
+01/03 - Ayer se realizaron pruebas y pixela en Colombia. Necesitan puente de 12 recursos.
+28/02- Se realiza una sesion de pruebas comprobando que en la delegacion de Colombia tienen pixelaciones, se descarta ancho de banda, firewall, lan…. Se revisa que el fallo esta en la conexión entre el Touch pannel y el equipo, se solicita que comprueben el cable de conexion, previstas pruebas conjuntas para el día 01/03 entrre las 14 PM-18 PM
+27/02 - Las salas que gestionamos son Peru y Colombia que conectarán por VPN al rendezvous 87054001. Mexico y Chile por Internet. Pruebas para el día 28 a las 10:00am Colombia.
+26/02 - Enviamos correo a cliente para chequear con comercial de Telefonica el estado de los contratos y servicios.
+26/02 - Seguimos sin conectividad al equipo
+23/02 - Cliente confirma que los equipos están encendidos. Desde EDC de Peru no vemos el codec. Solicitamos estado del equipo, fotos, etc. No hay acceso a EDC de Chile. Abrimos con WAN.
+23/02 - Comprobamos que los equipos no están registrados y no responden a ping. Preguntamos si están apagados.";;;;;;;;
+NO;1102614;;;;NOKIA;TLPS M IND NOI 02;Pendiente;TLPS M IND NOI 02;INDIA;02/03/2018;N1;NO;CLIENTE;Node Down;02/03 - Abren caso a HP. Dejamos ticket en resolved;119;28/02/2018;0m;0m;"02/03 - Abren caso a HP. Dejamos ticket en resolved
+01/03 - Se solicita update a SMC. La sala continua desregistrada, sin acceso a Codec y si al GW.";;;;;;;;
+NO;1105870;;;;BBVA;Salas en Chile;N/A;Salas en Chile;CHILE;04/03/2018;N1;N0;CLIENTE;Error al compartir pizarra | contenido en equipos de VC ;04/03 - Esto no es una incidencia, es el comportamiento normal de un endpoint en webex. Los equipos de videoconferencia o telepresencia ven si se comparte la pantalla, pero no ven, por diseño, si se comparte un fichero, o una whiteboard.;117;02/03/2018;0m;0m;04/03 - Esto no es una incidencia, es el comportamiento normal de un endpoint en webex. Los equipos de videoconferencia o telepresencia ven si se comparte la pantalla, pero no ven, por diseño, si se comparte un fichero, o una whiteboard.;;;;;;;;
+NO;1084250;;;;TIWS;VCF Ecuador;N/A;VCF ecuador;ECUADOR;OPEN;N1;NO;TIWS;No pueden conectar a spaces una SX20;28/02 - Solicitamos a cliente si ha podido revisar la configuracion de su CUCM. Esperamos feedback;132;15/02/2018;0m;0m;"28/02 - Solicitamos a cliente si ha podido revisar la configuracion de su CUCM. Esperamos feedback
+26/02 - Realizamos pruebas pero no nos envia la cadena completa de marcado desde su CUCM, lo va a revisar y nos indicara.
+26/02 - Hay pruebas agendadas hoy para la conexion por VPN
+19/02 - Las llamadas por Internet funciona pero no las que van por el trunk. Se indica añadir patron para llamar a spaces a través de trunk pero reciben error 481 (Call / Transaction Does Not Exist).
+16/02 - Desde el SBC Madrid se aplica un cambio en la adjacencia TSBMADPE1# show run | s B2B_TLF-ENT-TME_EXT_01
+15/02 - En Ecuador se conectan desde equipos SX 20 registrados en su CallManager con troncal hacia el SBC de España.";;;;;;;;
+NO;1090636;684027010;;;NOKIA;TLPS S KOR SEU 01;Pendiente;TLPS S KOR SEU 01;KOREA;OPEN;N2;NO;CLIENTE;Speaker problem;28/02 - El problema es que cliente no escucha nada, no tiene sonido en la sala. No tiene nada que ver con el speakertrack (las sx20 no tienen). Enviamos a SMC comprobaciones básicas que debe hacer cliente.;126;21/02/2018;0m;0m;"28/02 - El problema es que cliente no escucha nada, no tiene sonido en la sala. No tiene nada que ver con el speakertrack (las sx20 no tienen). Enviamos a SMC comprobaciones básicas que debe hacer cliente.
+27/02 - Volvemos a pedir updates a SMC ya que la sala sigue sin registrar en el CUCM
+26/02 - Intentamos comprobar la sala, pero no podemos ya que no tenemos acceso al códec. Pedimos a SMC que se revise esto.
+26/02 - Se abre caso a Cisco para revisar el estado de la camara. Se facilita la informacion requerida a cisco
+23/02 - Se abre caso a Cisco para revisar el estado de la camara. Enviamos las preguntas indicadas
+22/02 - Cliente va a revisar mañana día 23. Hoy no ha podido acceder a la sala.
+21/02 - Se revisa el estado del codec, comprobando que no hay ningun problema con el speaker track. Si hay problemas con la salida de video OSD y la resolucion de salida en pantalla, se modifca configuracion desapareciendo el problema. ";;;;;;;;
+NO;1105362;;;;NOKIA;TLPS M BEL ANT 06;Pendiente;TLPS M BEL ANT 06;BELGICA;05/03/2018;N2;NO;TIWS;WebEx is malfunctioning;"05/03 - Comprobamos en la sala que no aparece ningún error. Realizamos prueba de llamada y vemos que funciona correctamente. Comprobamos en las últimas llamadas que se han realizado que corresponden a un puente de audio. Preguntamos a cliente si puede ser este el mal comportamiento de la cámara.
+";117;02/03/2018;0m;0m;02/03 - Comprobamos en la sala que no aparece ningún error. Realizamos prueba de llamada y vemos que funciona correctamente. Comprobamos en las últimas llamadas que se han realizado que corresponden a un puente de audio. Preguntamos a cliente si puede ser este el mal comportamiento de la cámara.;;;;;;;;
+NO;1105756;;;;MAR DE PLATA;PRESIDENCIA PERU;20111005-SITEMPLS-0000324912;PRESIDENCIA PERU;PERU;05/03/2018;N1;SI;CLIENTE;Node Down;05/03 - Tenemos acceso ping al router, la sala sigue sin registrar;117;02/03/2018;0m;0m;05/03 - Tenemos acceso ping al router, la sala sigue sin registrar;;;;;;;;
+NO ;1070572;684054465;;;TIWS;CTS MARTINIANO 3000;20160608-CONFTLPS-0000408064;IP PHONE CTS MARTINIANO 3000;BRASIL;05/03/2018;N1;NO;TIWS;IP PHONE no registrado;"Se revisa el enrutamiento desde ASA, Nexus, EDC principal y sw de cliente, se comprueba que el puerto de conexion hacia el equipo tienen habilitada una sola mac. Se modifica la configuracion del puerto habilitandolo para un maximo de 3 mac. Compruebo que tengo conectividad con el telefono, pero no tenemos acceso vía remota.
+Adjunto las pruebas realizadas,
+Se envia correo al cliente, para verificar que tienen la configuracion lan correcta,
+Ip del codec 10.34.159.71
+mac -255.255.255.240
+default GW 10.34.159.65";141;06/02/2018;0m;0m;"02/03 - Intentamos localizar a Cleber para revisar el Default GW del telefono pero estará el Lunes.
+02/03 - Se observa desde CUCM que no se llega al Ip Phone, pero si al codec. Abrimos caso a WAN
+28/02 - Abrimos caso a Cisco ya que le FW esta deferred y nos guie con el registro del equipo.
+27/02 - Continuamos a la espera de nueva información. Pedimos actualización a cliente
+23/02 - El IP phone tiene una version que no está cargada en CUCM. Enviamos dos posibilidades de solucionarlo y solicitamos SN para ver si está en mantenimiento.
+22/02 - Comprobamos que el nuevo CUCM no tiene el phone load del 7970, creemos que es el motivo por el que no registra, pero desde la web de Cisco esta descatalogado.
+21/02 - No están guardando correctamente la configuración. Enviamos correo con instrucciones paso a paso.
+19/02 - Recibimos correo de Diogo con la foto del IP Phone bloqueado en estado Restarting. Preguntamos por disponibilidad para mirar el problema.
+12/02 - Volvemos a pedir actualizacion sobre el caso. Seguimos viendo que el IPphone no registra.
+07/02 - SE revisa CTS 3000 y se ve el phone registrado, se solicita fotografia del estado del telefono y reiniciar telefono?
+07/02 - SE revisa CTS 3000 y se ve el phone registrado, se solicita fotografia del estado del telefono y reiniciar telefono?";;;;;;;;
+NO;1108635;;;;NOKIA;TLPS M CAN OTA 04;Pendiente;TLPS M CAN OTA 04;CAN;05/03/2018;N1;NO;CLIENTE;Node Down;06/03 - Tenemos ping al GW pero no al codec. Se solicita la revisión del encendido, los puertos y la LAN;;;0;;;;;;;;;;
+NO;1108099;684084354;;;NOKIA;TLPS M BEL ANT 06;Pendiente;TLPS M BEL ANT 06;BELGICA;OPEN;N2;NO;CLIENTE;the right screen problem;05/03 - Se revisa el día de la apertura de la incidencia que fué el dia 03/03. Comprobando que el día anterior realizaron llamadas de audio  desde el equipo MX700.;114;05/03/2018;0m;0m;05/03 - Se abre caso SR a Cisco para el cambio de pantalla;;;;;;;;
+NO;1097776;684047307;88320644;;NOKIA;TLPS M FRA VIL 05;Pendiente;TLPS M FRA VIL 05;FRANCE;06/03/2018;N2;NO;CLIENTE;Issue: Video Conference * Not working, No connection;01/03 - El FE confirma que no hay red en la toma a la que va conectada el codec. Ha cambiado codec y configurado la red pero sigue sin alcanzarse. Informamos a SMC/Cliente.;11;16/02/2018;0m;0m;"01/03 - El FE confirma que no hay red en la toma a la que va conectada el codec. Ha cambiado codec y configurado la red pero sigue sin alcanzarse. Informamos a SMC/Cliente.
+01/03 - Vemos en el caso codec recibido. El FE está cambiando codec.
+28/02 - Contactamos con CIsco para confirmar que hayan agendado el tecnico, nos confirman que estan creando el RMA y que nos envian el nº por correo. 
+28/02 - Cliente nos confirma disponibilidad para mañana 1 de marzo a las 9:00 AM (GMT+1). Informamos a Cisco para que programe al FE. Quedamos a la espera de confirmación de cisco.
+27/02 - El onsite de HP indica que la red está correcta y que el codec no funciona al conectarlo a la red. Abrimos caso a Cisco.
+27/02 - A la espera de contestación de cliente
+26/02 - Viene del caso 1085892. Se ha abierto ticket a HP y indican su parte ok. Solicitamos alguna prueba del estado del codec para abrir caso RMA";;;;;;;;
+NO;1108056;;;;NOKIA;CN Hangzhou R HALO;20150810-CONFTLPS-0000398606;CN Hangzhou R HALO;CHINA;06/03/2018;N1;NO;CLIENTE;Video Conferencing: Dial-up device is broken;06-03 - Comprobamos que la sala esta en llamada, solicitamos al SMC explicación del error que reportan;114;43164;0m;0m;06-03 - Comprobamos que la sala esta en llamada, solicitamos al SMC explicación del error que reportan;;;;;;;;
+NO;1105535;684070865;;;NOKIA;DX80 USA NJE 02;DEM0019960;DX80 USA NJE 02;USA;07/03/2018;N2;NO;TIWS;La sala no se registra por Internet;02/03 - Con CollaborationSolutionsAnalyzer se ve que falla registro. Se comunica a Cisco.;114;05/03/2018;0m;0m;"02/03 - Con CollaborationSolutionsAnalyzer se ve que falla registro. Se comunica a Cisco.
+02/03 - Vemos en Expressway-C que está permitido pero a CUCM no llega el registro. Abrimos caso a Cisco.";;;;;;;;
+NO;1097799;;;;NOKIA;TLPS S FIN HEL 01;201059793;TLPS S FIN HEL 01;FINLANDIA;06/03/2018;N1;NO;TIWS;site lost registration. Pbably problem with Collaboration Edge.;07/03 - En estos momentos la sala registra en CUCM y tenemos acceso ;121;26/02/2018;0m;0m;"02/03 - Cliente realiza factory reset del dispositivo y al tratar de conectar con Expressway-E recibe error ""Failed to download Expressway configuration. Failed to lookup service for domain specified in Domain. Indicamos configurar DNS pero recibe el mismo error. 
+02/03 - Revisando el caso detectamos que el dominio no está correcto. Indicamos a cliente cambiarlo.
+01/03 - Se realiza troubleshooting. El equipo está configurado correctamente para acceder por Expressway-E. Enviamos correo sumarizando lo realizado hoy y siguientes pasos.
+28/02 - Reabierta para tratar la sala de Finlandia. Ventana para mañana a las 12:30.
+28/02 - Se estuvo tratando en TAS000000046170 con Delivery. Ayer se hicieron test correctos.
+27/02 - Solicitamos a cliente que facilite IP publica para ver si es alcanzable desde Expressway-E y que nos comparta la interfaz web del codec por webex.";;;;;;;;
+NO;1111368;;;;BBVA;TMS-BBVA;N/A;TMS-BBVA;;07/03/2018;N2;NO;CLIENTE;Caida de sesiones Webex en TMS;07/03 - Pasamos la incidencia a Query ya que cliente nos informa que por el momento no han recibido quejas desde las salas. COntinuaran informando a lo largo del día de hoy;112;07/03/2018;0m;0m;07/03 - Solicitamos ejemplos fallidos, desde VCS se ven llamadas hacia SIP con numeración errónea;;;;;;;;
+NO;1112238;;;;TIWS;Miami sala Cordoba;N/A;Miami sala Cordoba;USA;07/03/2018;N1;NO;CLIENTE;No aparecen reservas en la pantalla de la DX80;07/03 - Damos permisos para poder reservar la sala a jenny.castilla. Realiza reserva de pruebas y comprobamos que la reserva aparece en la pantalla;112;07/03/2018;0m;0m;07/03 - Damos permisos para poder reservar la sala a jenny.castilla. Realiza reserva de pruebas y comprobamos que la reserva aparece en la pantalla;;;;;;;;
+NO;1113355;;;;NOKIA;TLPS M USA HOL 01;;TLPS M USA HOL 01;USA;08/03/2018;N2;NO;CLIENTE;Node Down;08/03 - La sala aparece registrada;139;08/02/2018;0m;0m;"08/03 - La sala aparece registrada
+08/03 - Se solicita a SMC que revise la LAN con HP";;;;;;;;
+NO;1113709;;;;NOKIA;TLPS M MAL KUA 01;;TLPS M MAL KUA 01;MALASYA;08/03/2018;N1;NO;CLIENTE;Node Down;08/03 - Se solicita a SMC que revise la LAN con HP;0;08/03/2018;0m;0m;08/03 - Se solicita a SMC que revise la LAN con HP;;;;;;;;
+NO;1113924;;;;NOKIA;TLPS M IND MUM 02;N/A;TLPS M IND MUM 02;INDIA;08/03/2018;N1;NO;CLIENTE;Node Down;08/03 - Se solicita a SMC que revise la LAN con HP;0;08/03/2018;0m;0m;08/03 - Se solicita a SMC que revise la LAN con HP;;;;;;;;
+NO;1115375;;;;NOKIA;TLPS M EAU DUB 02 ;N/A;TLPS M EAU DUB 02 ;EAU;08/03/2018;N1;NO;CLIENTE;Node Down;08/03 - Se verfica la sala registrada;0;08/03/2018;0m;0m;08/03 - Se verfica la sala registrada;;;;;;;;
+NO;1115427;;;;NOKIA;TLPS M POL WAR 03;N/A;TLPS M POL WAR 03;POLONIA;08/03/2018;N1;NO;CLIENTE;Node Down;08/03 - Sala en mudanza;0;08/03/2018;0m;0m;08/03 - Sala en mudanza;;;;;;;;
+NO;1115219;;;;SABADELL;N/A;N/A;N/A;ESPAÑA;OPEN;N1;NO;SABADELL;Usuario user.finan  solicita reinicio de cuenta;09/03 - Se realiza reset del user. Esperamos confirmación de cliente;111;08/03/2018;0m;0m;09/03 - Cliente confirma funcionamiento;;;;;;;;
+NO;1110495;684095670;;;MEDIA NETWORK;DX80 Lurín;;DX80 Lurín;PERU;OPEN;N1;NO;CLIENTE;Equipo DX80 Lurin pide confirmacion de configuracion continuamente cada reinicio;09/03 - Cliente ha reiniciado el endpoint varias ocasiones y ya no aparece mensaje de bienvenida, esta ok.;;;;;"09/03 - Cliente ha reiniciado el endpoint varias ocasiones y ya no aparece mensaje de bienvenida, esta ok.
+07/03 - Cisco recomienda hacer un factory reset del equipo. Solicitamos a cliente que lo realice.
+06/03 - Abrimos caso SR con Cisco.";;;;;;;;
+NO;1107260;;;;BBVA;LA VELA ???;N/A;LA VELA ???;??;OPEN;N1;NO;CLIENTE;"Alarma TMS en sala sx-20  ""Network address missing""";07-03 - SMC abre ticket a delivery para investigar problema;114;05/03/2018;0m;0m;"05-03 - ""Network address missing"" en sala de videoconferencia que no gestionamos.";;;;;;;;
+NO;1116137;;;;BBVA;ARGENTINA Piso 33 Sala 09 *2391;;ARGENTINA Piso 33 Sala 09 *2391;ARGENTINA;10/03/2018;N1;NO;TIWS;Wrong user or password;10/03 - Se pone la password genérica al equipo en el TMS y la alarma desaparece.;;10/03/2018;0m;0m;10/03 - Se pone la password genérica al equipo en el TMS y la alarma desaparece.;;;;;;;;
+NO;1114426;;;;BBVA;ARGENTINA//Sala 09 *2391;;ARGENTINA//Sala 09 *2391;ARGENTINA;09/03/2018;N1;NO;TIWS;Error autentificación TMS;09/03 - Se intenta poner la pass de BBVA pero da error, se deja vacía y desaparece el error.;110;09/03/2018;0m;0m;09/03 - Se intenta poner la pass de BBVA pero da error, se deja vacía y desaparece el error.;;;;;;;;
+NO ;1116188;;;;BBVA;TP USA BIRMINGHAM *2141 ;;TP USA BIRMINGHAM *2141 ;USA;OPEN;N1;NO;TIWS;Not registered in CUCM;10/03 - Sala vuelve a registrar en CUCM;0;;;;;;;;;;;;
+NO;1101404;684071543;88924902//88333702;;TIWS;Telefonica Alemania Dusseldorf;20141028-SALATLPS-0000390910;Telefonica Alemania Dusseldorf;ALEMANIA;OPEN;N1;NO;TIWS;Dusseldorf presenta problemas con la ACU;12/03 - Tecnico cambia cableado erroneo y ademas tenia el CSS internal;0;28/02/2018;0m;0m;"12/03 - Tecnico cambia cableado erroneo y ademas tenia el CSS internal
+12/03 - Recibimos ETA FE 12th March 2018 at 10 hours local time.
+07/03 - El RMA esta pendiente de autorizacion, enviamos correo a Cisco para que lo agilice.
+06/03 - Enviamos correo de disponibilidad a Reagan y gestionamos caso RMA con Cisco
+05/03 - Solicitamos disponibilidad al jds para la asistencia del tecnico de Cisco, pendiente de rellenar el RMA con la informacion.
+02/03 - El S/N estaba erroneo en la Base de datos, revisamos en el codec y conseguimos abrir con Cisco. Anexamos logs y capturas SR 684071543
+02/03 -Solicitamos update a logistica
+01/03 -Solicitamos update a logistica
+28/02 - Equipo sin mantenimiento HW, solicitamos al grupo de Logistica que incluya en mantenimiento.";;;;;;;;
+NO;1113921;;;;NOKIA;TLPS L USA CHI 01 ;N/A;TLPS L USA CHI 01 ;USA;OPEN;N1;NO;CLIENTE;Node Down;13/03 - SMC nos indica que la instalacion esta cerrada.;0;08/03/2018;0m;0m;"13/03 - SMC nos indica que la instalacion esta cerrada.
+08/03 - No se llega al codec ni al gw, se abre ticket a wan, que revise gw.";;;;;;;;
+NO;1115575;684116624;;;NOKIA;TLPS M NZL AUC 01;N/A;TLPS M NZL AUC 01;NEW ZEALAND;13/03/2018;N1;NO;CLIENTE;Camera error;13/03 - Cliente indica haber hecho tests en la sala y encontrarse operativa sin ningun problema.;110;09/03/2018;0m;0m;"12/03 - Enviamos a Cisco las respuestas requeridas y solicitamos apertura de RMA.
+10/03 - Volvemos a reiniciar el codec y el error desparece, quedamos pendientes de confirmación de que todo está correcto 09/03 - Tras reinicio el error persiste. Abrimos caso con Cisco";;;;;;;;
+NO;1119349;;;;TIWS;Madrid Sur 3;N/A;Madrid Sur 3;ESPAÑA;13/03/2018;N1;NO;TIWS;la sala presentó reinicios en varias ocasiones durante la reunion;13/03 - Se observa en logs que este reinicio es producido por el bug de las IX5000;106;13/03/2018;0m;0m;13/03 - Se observa en logs que este reinicio es producido por el bug de las IX5000;;;;;;;;
+NO;1108099;684084354;88338996;;NOKIA;TLPS M BEL ANT 06;Pendiente;TLPS M BEL ANT 06;BELGICA;13/03/2018;N2;NO;CLIENTE;the right screen problem;13/03 - Cisco crea un nuevo RMA 88341428 para el envio de dos ingenieros y pantalla no hay ETA todavia.;114;05/03/2018;0m;0m;"13/03 - Cisco crea un nuevo RMA 88341428 para el envio de dos ingenieros y pantalla no hay ETA todavia.
+12/03 - Todavía no hay confirmación de llegada del RMA.
+09/03 - Se realiza TS básico sin problemas
+09/03- Abrimos caso con Cisco SR: 684113945
+
+08/03 - Se revisa Codec y no se aprecia ninguna alarma
+";;;;;;;;
+NO;1118119;;;;TISA ;PANAMA SX10;N/A;Conexiones web rtc ;Todos usuarios AMER;12/03/2018;N1;NO;TIWS;Se comprueba que fallan todas las conexiones desde latam via webrtc;12/03 - Se escala nivel 3;107;12/03/2018;0;0;12/03 - Se escala nivel 3;;;;;;;;
+NO;1120102;;;;NOKIA;TLPS M FRA NOZ 07;N/A;TLPS M FRA NOZ 07;FRANCE;13/03/2018;N1;NO;CLIENTE;Node Down;13/03 - Comprobamos que la sala no está registrada en el CUCM. No tenemos acceso al códec pero sí al GW. Solicitamos que revisen el equipo, comprueben los puertos y abran caso a HP para que revisen la LAN.;106;13/03/2018;0m;0m;13/03 - Comprobamos que la sala no está registrada en el CUCM. No tenemos acceso al códec pero sí al GW. Solicitamos que revisen el equipo, comprueben los puertos y abran caso a HP para que revisen la LAN.;;;;;;;;
+NO;1094487;;;pendiente ciente pruebas para el viernes;TIWS;Equipo  Tollcross Park 2WR no puede realizar llamadas;20160608-CONFTLPS-0000408070;Tollcross VCF;UK;13/03/2018;N1;NO;TIWS;Fallo de llamadas;05/03 - Dejamos en resolved pendiente de que  cliente actualice el FW;125;22/02/2018;0m;0m;"05/03 - Dejamos en resolved pendiente de que  cliente actualice el FW
+02/03 - El equipo da error 18 al llamar a space. (No user responding). La unica diferencia con respoecto a las otras Tandberg Edge 95 MXP es la version. El equipo que no funciona tiene la F9.1 y los demas versiones superiores. Indicamos cambiar la version a una conocida que funcione. Segun el mensaje de error se termina la comunicacion por el mensaje de establecimiento. Es posible que la F9.1 tenga un bug.
+01/03 - Seguimos a la espera de respuesta para el viernes 2 a las 14:00 h CET.
+27/02 - Issaak indica que se puede realizar TS el Viernes a las 14:00 CET
+27/02  - Solicitamos prueba via webex. Hay un equipo no registrado y otro que no conecta.
+26/02 - Revisamos configuración en CUCDM comparandola con equipos que funcionan y parece estar todo bien configurado. Se revisa config en CUCM. Se realiza test. El Polycom da error ""No user responding. Disconnected""
+23/02- Se revisan los cdr se configura el css que funciono el día de las pruebas, pendiente de probar que ya puede realizar llamadas.";;;;;;;;
+NO;1105002;;;;TIWS;Equipos de VC Oeste 1 Planta 6;N/A;Equipos de VC Oeste 1 Planta 6;ESPAÑA;13/03/2018;N1;NO;TIWS;No pueden compartir contenido con sus equipos de VC;09/03 - Se realizan multiples pruebas usando spaces de pruebas sin éxito.;110;09/03/2018;0m;0m;09/03 - Se realizan multiples pruebas usando spaces de pruebas sin éxito.;;;;;;;;
+NO;1119757;684133004;;;TIWS;Madrid Sur 3;N/A;Madrid Sur 3;ESPAÑA;14/03/2018;N1;NO;TIWS;la sala presentó reinicios en varias ocasiones durante la reunion;14/03 - Hemos estado tratando el caso con Cisco donde nos indica que el error está relacionado con el Bug CSCvf45829 y sugiere una actualización de la IX5000 a la versión 8.3.0 pero lo hemos contrastado con nuestros compañeros de Diseño & Tecnología y actualmente no podemos actualizar las IX5000 a dicha versión hasta que tengamos los CMS v2.2 y actualmente están en versión 2.0.;106;13/03/2018;0m;0m;"14/03 - Hemos estado tratando el caso con Cisco donde nos indica que el error está relacionado con el Bug CSCvf45829 y sugiere una actualización de la IX5000 a la versión 8.3.0 pero lo hemos contrastado con nuestros compañeros de Diseño & Tecnología y actualmente no podemos actualizar las IX5000 a dicha versión hasta que tengamos los CMS v2.2 y actualmente están en versión 2.0.
+13/03 - Se abre caso SR con Cisco
+13/03 - Se observa en logs que este reinicio es producido por el bug de las IX5000";;;;;;;;
+NO;1120499;;;;TISA ; TLF MX 200 TISA ECUADOR ;; TLF MX 200 TISA ECUADOR ;ECUADOR;14/03/2018;N1;NO;CLIENTE;Correspondiente con la incidencia cerrada 1099567;14/03 - En la incidencia 1099567 cliente Orlando, nos confirma qiue el equipo esta registrado en sus sitemas de comunicaciones, a nivel de opciones de conexion a un space se esta gestionando en la incidencian 1120499. Cerramos Caso.;106;13/03/2018;0m;0m;"14/03 - En la incidencia 1099567 cliente Orlando, nos confirma qiue el equipo esta registrado en sus sitemas de comunicaciones, a nivel de opciones de conexion a un space se esta gestionando en la incidencian 1120499. Cerramos Caso.
+13/03 - Se abre inicidencia proactiva informando a cliente de que se le esta tratando en dicho ticket";;;;;;;;
+NO;1122557;;;;NOKIA;TLPS M IND CHE 01 ;;TLPS M IND CHE 01 ;INDIA;15/03/2018;N1;NO;CLIENTE;Node Down;15/03 - La sala ya está registrada en CUCM.;104;15/03/2018;0m;0m;"15/03 - La sala ya está registrada en CUCM.
+15/03 - Se pide que se revise la LAN, estado de los puertos y encendido";;;;;;;;
+NO;1113850;684113945;;;NOKIA;TLPS M THA BAN 01;N/A;TLPS M THA BAN 01;THAILANDIA;OPEN;N1;NO;CLIENTE;Wrong screen resolution;15/03 - SMC informa que otros usuarios no han tenido problema.;111;08/03/2018;0m;0m;"15/03 - SMC informa que otros usuarios no han tenido problema.
+15/03 - Pendiente de fecha para troubleshooting con Cisco y cliente.
+14/03 - Pendiente de recibir de cliente ventana para realizar TS con Cisco. Pongo el ticket en customer pending.
+12/03 - Enviamos a Cisco logs y a cliente, para que vea que está desconfigurado porque cliente ha manipulado el equipo. Pedimos disponibilidad a cliente para realizar ventana de WebEx para volver a configurar el equipo
+08/03 - Se revisa Codec y no se aprecia ninguna alarma
+09/03 - Se realiza TS básico sin problemas
+09/03- Abrimos caso con Cisco SR: 684113945
+09/03 - Mandamos una serie de preguntas al SMC";;;;;;;;
+NO;1122753;;;;NOKIA;TLPS M COL BOG 01;20150810-CONFVCF-0000398567;TLPS M COL BOG 01;COLOMBIA;15/03/2018;N1;SI;CLIENTE;Node Down;15/03 - El equipo ya se encuentra registrado en CUCM. Además responde a ping.;104;15/03/2018;0m;0m;"15/03 - El equipo ya se encuentra registrado en CUCM. Además responde a ping.
+15/03 - GW responde a ping, codec no. Solicitamos estado de la sala para descartar apagados intencionados y problemas eléctricos.";;;;;;;;
+NO;1118519;684130083;88346179, 88349878;;TISA ;PANAMA SX90;20150423-CONFSERV-0000395785;TLF EX90 TISA PANAMA;PANAMA;15/03/2018;N1;NO;TIWS;Se recibe correo informando de fallo en el adaptador A/C;15/03 - El adaptador ha llegado y el equipo funciona.;106;13/03/2018;;;"15/03 - El adaptador llega mañana 16 a las 12:00 PM CET
+15/03 - El adaptador A/C llegará hoy a las 23:59h CET
+14/03 - A la espera de saber ETA para saber la llegada del adaptador A/C
+13/03 - Cisco nos proporciona RMA
+13/03 - Se abre incidencia y SR con Cisco";;;;;;;;
+NO;1121487;;;;TIWS;Global;N/A;Global;UK;16/03/2018;N1;NO;TIWS;No hay acceso a Space vía PC desde sede UK;16/03 - El problema se soluciona tras conectar vía WiFi y no por VPN.;105;14/03/2018;0m;0m;"14/03 - Enviamos correo a Sandra para realizar mas pruebas. Indicamos deshabilitar proxy, habilitar y buscar excepciones de tipo *.telefonica y abrir ticket a sus administradores de red para ver si el tráfico streaming está permitido en proxy.
+14/03 - pasados 10 segundos en el Space, no habiendo mostrado video aun teniendo la cámara activa, Sandra es expulsada de la reunión";;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;0;;;;;;;;;;;;

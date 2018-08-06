@@ -1,0 +1,2 @@
+04/07/2018: Las pruebas las estoy haciendo poniendo la variable VARIABLE_PROBANDO = True; en el escenario donde lo quiero probar; Quizá molaría ponerlo con fechas.
+El fichero de pruebas está en: C:\Users\usr1CR\Desktop\Manu\RESULTADO
