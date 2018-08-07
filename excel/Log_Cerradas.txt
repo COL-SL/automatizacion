@@ -134,3 +134,310 @@ SI ES UN LUNES CUALQUIERA
 -----------------------------------
 2018-08-06 16:24:04.698233
 SI ES UN LUNES CUALQUIERA
+-----------------------------------
+2018-08-07 11:32:12.454837
+SI ES UN MARTES CUALQUIERA
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:20:10.684593
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:24:47.046458
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:25:33.756535
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+2018-08-07 12:26:57.149377
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+2018-08-07 12:27:15.680016
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:29:01.473093
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+2018-08-07 12:29:27.734111
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+2018-08-07 12:30:03.488967
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:31:17.105684
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:31:26.912187
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:37:26.391764
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:37:36.615181
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:38:52.086638
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:40:09.603450
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:41:09.783828
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:46:05.063849
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:49:19.311829
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:54:14.558644
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:54:45.225438
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 12:55:44.889064
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:04:55.965669
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+-----------------------------------
+2018-08-07 13:05:05.912963
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:06:21.534556
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:09:56.586846
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:10:35.801903
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+2018-08-07 13:10:50.313618
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:11:21.444056
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:12:37.670086
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:15:44.531351
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:19:15.921746
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+2018-08-07 13:19:40.380448
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:32:26.156929
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+2018-08-07 13:33:38.388404
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+2018-08-07 13:34:39.808689
+DE MARTES A VIERNES SIN CAMBIO DE MES
+-----------------------------------
+2018-08-07 13:35:39.546576
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:36:01.024499
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:37:44.778851
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:38:10.429938
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:39:10.466797
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:41:07.676781
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:42:55.577216
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:44:44.500786
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:45:13.457626
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:46:40.706586
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:46:57.862242
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
+-----------------------------------
+2018-08-07 13:47:10.451824
+DE MARTES A VIERNES SIN CAMBIO DE MES
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+SELECCIONAMOS TIWS
+-----------------------------------
+
